@@ -4,68 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Website</title>
-    <style>
-      img {
-        width: 20%; 
-        margin: 40px auto;
-        display: block;
-      }
-      table, tr, td, th {
-        border: 1px solid black;
-        margin: 0 auto;
-      }
-      *{
-        background-color: aliceblue;
-      }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Website2</title>
 </head>
 <body>
+    <!-- ini adalah section header -->
     <header>
-        <!--ini adalah block header-->
+        <h1>Belajar Membuat layout dengan HTML dan CSS</h1>
     </header>
 
-    <section>
-        <h1 style="text-align: center;"> &#127802 BIODATA DIRI &#127802</h1>
-    <p>
-    </p>
-    <img src="img/eda_jasterrrr-removebg-preview.png" alt="my self">
-    <table> 
-        <tr>
-          <th>Nama</th>
-          <td>:</td>
-          <td>Freda Desfita</td>
-        </tr>
-        <tr>
-          <th>NIM</th>
-          <td>:</td>
-          <td>2102440</td>
-        </tr>
-        <tr>
-          <th>Kelas</th>
-          <td>:</td>
-          <td>3A</td>
-        </tr>
-        <tr>
-          <th>Prodi</th>
-          <td>:</td>
-          <td>Pendidikan Sistem Teknologi dan Informasi</td>
-        </tr>
-        <tr>
-          <th>Email</th>
-          <td>:</td>
-          <td>fredaart@upi.edu</td>
-          <tr>
-            <th>Motto Hidup</th>
-            <td>:</td>
-            <td>Takut Tapi Tetap Percaya Diri</td>
-          </tr>
-        </tr>
-      </table>
-    </section>
+    <!-- ini adalah section nav -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
 
+    <!-- ini adalah container -->
+    <div id="container">
+        <section class="kiri">
+            <div class="content">
+                <h3>Cerita Kita Hari Ini</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia temporibus iure deleniti impedit dignissimos, amet cumque ratione corporis animi aperiam, provident reprehenderit minus ducimus recusandae saepe doloribus delectus quae ad.</p>
+                <button>Read More....</button>
+            </div>
+            <div class="content">
+                <h3>Cerita Galau Hari Ini</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia temporibus iure deleniti impedit dignissimos, amet cumque ratione corporis animi aperiam, provident reprehenderit minus ducimus recusandae saepe doloribus delectus quae ad.</p>
+                <button>Baca aku....</button>
+            </div>
+        </section>
+
+        <section class="kanan">
+            <div class="content_dua">
+                <h3>CATEGORY</h3>
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">Javascript</a></li>
+                    <li><a href="#">Bootstrap</a></li>
+                    <li><a href="#">PHP</a></li>
+                    <li><a href="#">MySQL</a></li>
+                    <li><a href="#">Laravel</a></li>
+            </div>
+
+        </section>
+    </div>
+
+    <!-- ini adalah footer -->
     <footer>
-        <!--ini adalah block footer-->
+        <h3>Copy Right 2022</h3>
     </footer>
 </body>
 </html>

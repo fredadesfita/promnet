@@ -1,0 +1,12 @@
+      img { 
+        width: 20%; 
+        margin: 40px auto;
+        display: block;
+      }
+      table, tr, td, th {
+        border: 1px solid black;
+        margin: 0 auto;
+      }
+      *{
+        background-color: aliceblue;
+      }
